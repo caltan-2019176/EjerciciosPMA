@@ -65,7 +65,7 @@ const getUsersWithAsync = async ()=>{
             users.innerHTML += `
                 <tr id="${user.id.name}">
                     <td>${user.name.first}</td>
-                    <td>${user.asdf?.surname ?? ''}</td>
+                    <td>${user.name.last ?? ''}</td>
                     <td>${user.phone}</td>
                 </tr>
             `
